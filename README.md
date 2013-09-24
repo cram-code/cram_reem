@@ -21,7 +21,7 @@ What is currently being integrated?
 
 Right now, the following integration is being worked on:
 
-* *reem_navigation_process_module*: The navigational capabilities of the REEM robot are exposed to CRAM, using the `/PAL_ROBOT/cmd_vel` topic as a basis for sending twist messages.
+* *reem_navigation_process_module*: The navigational capabilities of the REEM robot are exposed to CRAM, using the `/PAL_ROBOT/cmd_vel` topic as a basis for sending twist messages. Depends on [nav_pcontroller](https://github.com/code-iai/nav_pcontroller) for linear navigation control.
 
 
 What integration is planned?

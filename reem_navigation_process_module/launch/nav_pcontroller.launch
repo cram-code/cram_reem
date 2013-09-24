@@ -1,8 +1,6 @@
 <launch>
   <node pkg="nav_pcontroller" type="nav_pcontroller" name="nav_pcontroller" output="screen">
-    <remap from="/PAL_ROBOT/cmd_vel" to="/base_controller/command"/>
-    <!-- No laser at this time! This has to be fixed! -->
-    <!-- <remap from="~laser_1" to="/base_scan"/> -->
+    <remap from="~laser_1" to="/hokuyo/LAS_01"/>
     <remap from="/goal" to="/nav_pcontroller/move_base_simple/goal"/>
     <rosparam>
       enable_jlo: false

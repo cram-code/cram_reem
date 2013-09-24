@@ -12,8 +12,8 @@ This stack enables REEM robots by PAL Robotics to be controlled through the ROS 
 Current status
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/CfU9t8_0CKk" frameborder="0" allowfullscreen></iframe>
 Basic navigation works. The CRAM navigation process module can drive the REEM robot around.
+[Video link](http://www.youtube.com/watch?v=CfU9t8_0CKk) to a simple example of moving REEM around using the reem_navigation_process_module.
 
 
 What is currently being integrated?

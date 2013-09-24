@@ -8,6 +8,14 @@ The CRAM high-level plan execution system hosted [here](http://github.com/cram-c
 
 This stack enables REEM robots by PAL Robotics to be controlled through the ROS middleware system using CRAM. The respective ROS setup steps for a simulated REEM robot can be found [here](http://wiki.ros.org/pal-ros-pkg).
 
+
+Current status
+---
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/CfU9t8_0CKk" frameborder="0" allowfullscreen></iframe>
+Basic navigation works. The CRAM navigation process module can drive the REEM robot around.
+
+
 What is currently being integrated?
 ---
 
